@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Flowise Chatbot Embed</title>
+  <script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.initFull({
+        chatflowid: "ac164b38-d3b8-4aac-8304-a606c4de5dac",
+        apiHost: "https://flowise-production-14fc.up.railway.app",
+    })
+  </script>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <flowise-fullchatbot></flowise-fullchatbot>
+</body>
+</html>
